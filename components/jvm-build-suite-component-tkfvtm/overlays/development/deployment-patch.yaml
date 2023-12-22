@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: jvm-build-suite-component-tkfvtm
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/jvm-build-rjqq-tenant/jvm-build-suite-application-ezlf/jvm-build-suite-component-tkfvtm@sha256:b3e229efd6614cbfd7875433b611c7c3a3061445500ee05ac2a4d9420c1a7732
+        name: hacbs-jvm-build-test-project
+        resources: {}
+status: {}
